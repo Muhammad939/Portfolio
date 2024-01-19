@@ -1,0 +1,94 @@
+.btn1 {
+    background: linear-gradient(0deg,
+            blue 0% , 
+            hsl(195, 69%, 75%) 100%);
+    padding: 0.75rem 2rem;
+    line-height: 1;
+    border-radius: 1.875rem;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: blue;
+    font-weight: bold;
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+}
+
+@keyframes button-push {
+    50% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.btn1:hover {
+    animation: button-push 0.3s linear 1;
+    box-shadow: 4px 4px 6px 0 rgba(53, 51, 51, 0.5),
+        -4px -4px 6px 0 rgba(50, 58, 67, 0.5),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.button-container {
+    text-align: center;
+}
+
+ .avatar {
+    width: 200px;
+    border-radius: 200px;
+    border: 5px solid blue;
+    height: 100%;
+   
+ }
+.box {
+    display: flex;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    top: -11px;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+  
+  .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+  .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+  .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+  
+  .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+  }
+
+    .github-box {
+        display: flex;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+    height: 33px;
+    position: relative;
+    top: -5px;
+    
+  }
+
