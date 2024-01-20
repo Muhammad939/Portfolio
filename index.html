@@ -12,80 +12,100 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"  >
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-          <svg class="bi me-2" width="40" height="32">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-          <span class="fs-4">Sulaiman's Portfolio</span>
+    <section class="navbar">
+      <div class="container">
+        <header
+          class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+            <span class="fs-4">Sulaiman's Portfolio</span>
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link active" aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+          </ul>
+        </header>
+      </div>
+    </section>
+
+    <section class="Hero">
+      <div class="box">
+        <img
+          src="./assets/images/peeps-avatar-alpha.png"
+          alt="Sulaiman's png"
+          class="avatar"
+        />
+      </div>
+      <div class="github-box">
+        <a href="">
+          <img
+            src="./assets/images/github.svg"
+            alt="github-link"
+            class="github"
+          />
         </a>
+      </div>
+      <div class="button-container">
+        <button class="btn1">Contact Me</button>
+      </div>
+    </section>
 
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="./Index.html" class="nav-link active" aria-current="page"
-              >Home</a
-            >
-          </li>
-          <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-        </ul>
-      </header>
-    </div>
-
-    <div class="box">
-      <img src="./assets/images/peeps-avatar-alpha.png"alt="Sulaiman's png"  class="avatar"/>
-    </div>
-    <div class="github-box">
-    <a href=""> <img src="./assets/images/github.svg" alt="github-link" class="github"> </a>
-    </div>
-    <div class="button-container">
-      <button class="btn1">Contact Me</button>
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div class="container px-4 py-5" id="featured-3">
+    <section class="skills">
+      <div class="container px-4 py-5" id="featured-3">
         <h2 class="pb-2 border-bottom">My Skills</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
               <i class="fa-brands fa-html5"></i>
             </div>
             <h3 class="fs-2 text-body-emphasis">HTML</h3>
-            <p>HTML (HyperText Markup-Language) The body of the website.</p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
           </div>
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
               <i class="fa-brands fa-css3-alt"></i>
             </div>
             <h3 class="fs-2 text-body-emphasis">CSS</h3>
-            <p>CSS (Cascading Stylesheet) the styling of the website.</p>
-            <img src="./assets/images/chevron-right.svgik" alt="" sizes="" srcset="">
+              
+         
           </div>
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
               <i class="fa-brands fa-bootstrap"></i>
             </div>
             <h3 class="fs-2 text-body-emphasis">Bootstrap</h3>
-            <p></p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
+            
+           
           </div>
         </div>
       </div>
+    </section>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-      <script src="https://kit.fontawesome.com/2b70879511.js" crossorigin="anonymous"></script>
-      </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/2b70879511.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
